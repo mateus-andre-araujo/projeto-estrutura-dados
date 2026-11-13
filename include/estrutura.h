@@ -2,7 +2,7 @@
 #define ESTRUTURA_H
 
 // Nó da pilha (estrutura linear escolhida)
-typedef struct {
+typedef struct NoPilha {
     int id;
     struct NoPilha *proximo;
 } NoPilha;
