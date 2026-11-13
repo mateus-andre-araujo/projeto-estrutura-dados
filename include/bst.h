@@ -12,7 +12,7 @@ typedef struct {
 } Livro;
 
 // Nó da Árvore Binária de Busca (BST)
-typedef struct {
+typedef struct NoBST {
     Livro dados;
     struct NoBST *eloE;
     struct NoBST *eloD;
